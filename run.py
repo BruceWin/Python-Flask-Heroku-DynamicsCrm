@@ -1,2 +1,6 @@
+import sys
+
+port = int(sys.argv[1])
+
 from app import app
-app.run(debug=True,host='0.0.0.0', port=$PORT)
+app.run(debug=True,host='0.0.0.0', port=port)
