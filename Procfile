@@ -1,1 +1,1 @@
-web: gunicorn  run $PORT
+web: gunicorn  app.__init__
